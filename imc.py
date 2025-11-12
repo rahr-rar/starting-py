@@ -1,10 +1,11 @@
 nome = input('Diga o seu nome: ')
-altura = float (input ('Diga sua altura: '))
-peso = float (input('Diga o seu peso: '))
-imc = peso / (altura * altura)
-
+altura = (input ('Diga sua altura: '))
+peso = (input('Diga o seu peso: '))
+altura_float = float(altura)
+peso_float = float(peso)
+imc = peso_float / (altura_float ** 2)
 resultado = f'{nome} o calculo do seu peso dividido por sua altura ao quadrado, resultou em um IMC de: {imc:.2f}'
 print(resultado)
 
 
-#projeto usando f-string
+print(resultado)
