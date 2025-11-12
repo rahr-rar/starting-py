@@ -5,3 +5,6 @@ imc = peso / (altura * altura)
 
 resultado = f'{nome} o calculo do seu peso dividido por sua altura ao quadrado, resultou em um IMC de: {imc:.2f}'
 print(resultado)
+
+
+#projeto usando f-string
